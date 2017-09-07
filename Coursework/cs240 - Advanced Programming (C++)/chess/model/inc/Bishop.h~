@@ -1,0 +1,10 @@
+#ifndef CS240_BISHOP_H
+#define CS240_BISHOP_H
+
+class Bishop extends Piece
+{
+public:
+	std::set<Move> GetValidMoves(Board board, Position base);	
+};
+
+#endif

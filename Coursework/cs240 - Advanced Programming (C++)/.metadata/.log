@@ -1,0 +1,2820 @@
+!SESSION 2010-06-23 16:04:24.738 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:11:05.618
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-06-23 16:11:17.809
+!MESSAGE Indexed 'Hello World' (1 sources, 120 headers) in 13.17 sec: 8,898 declarations; 18,156 references; 0 unresolved inclusions; 0 syntax errors; 408 unresolved names (1.49%)
+
+!ENTRY org.eclipse.jface 2 0 2010-06-23 16:11:37.637
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-23 16:11:37.637
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@4590640e),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-06-23 16:13:06.565
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:62)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:16:44.054
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:17:33.651
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-06-23 16:17:33.905
+!MESSAGE Indexed '1 URL Resolver' (0 sources, 40 headers) in 0.45 sec: 521 declarations; 803 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:18:20.582
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:22:22.842
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:31:48.643
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:31:52.496
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:37:07.294
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:38:22.419
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:40:12.084
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:40:37.924
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:40:47.091
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:41:36.029
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.debug.core 4 125 2010-06-23 16:41:43.692
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:62)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-06-23 16:42:34.857
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:62)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.eclipse.debug.core 4 125 2010-06-23 16:42:51.665
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: read error
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read0(Native Method)
+	at org.eclipse.cdt.utils.spawner.SpawnerInputStream.read(SpawnerInputStream.java:62)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:317)
+	at java.io.FilterInputStream.read(FilterInputStream.java:90)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:144)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:134)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:207)
+	at java.lang.Thread.run(Thread.java:619)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 16:43:05.046
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.ui.console 4 2 2010-06-23 16:43:29.783
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-06-23 16:43:29.799
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 2 2010-06-23 16:43:30.028
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-06-23 16:43:30.044
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2010-06-23 22:11:47.478 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-06-23 22:12:22.780
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-23 22:12:22.780
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@d3b8dae),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:13:26.735
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:21:36.804
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:22:56.888
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:23:05.160
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:23:17.848
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:27:19.460
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:30:38.476
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:32:42.892
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:33:42.713
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:34:37.759
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:35:14.967
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:40:58.657
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:51:52.484
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:52:37.463
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-23 22:54:50.469
+!MESSAGE Unable to load default SVN Client
+!SESSION 2010-06-24 14:03:24.627 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-06-24 14:03:43.221
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-24 14:03:43.221
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@2364e850),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:05:44.580
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:06:32.054
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:06:43.626
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:12:37.734
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:42:35.836
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:44:00.516
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:49:52.860
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:50:36.451
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:51:52.628
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 14:52:08.080
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:09:11.077
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:18:10.275
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:21:54.276
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:22:26.100
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:23:13.944
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:24:22.824
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:24:44.027
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:25:08.226
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:32:41.670
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:37:13.771
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:37:48.736
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:43:22.831
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:47:44.493
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:53:22.341
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:53:54.930
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:54:20.731
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:54:46.727
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:56:36.416
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:57:51.452
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 15:59:32.811
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:00:45.371
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:15:50.014
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:16:31.465
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:17:32.402
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:22:35.509
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:24:28.144
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:26:24.251
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:31:22.591
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:33:02.828
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:36:19.990
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:36:34.578
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:37:22.346
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:39:21.074
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:39:46.317
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:40:08.965
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:41:41.386
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:42:10.654
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:43:02.472
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:43:38.434
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:43:49.791
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:44:34.955
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:45:47.359
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:46:53.933
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:50:59.564
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:51:55.004
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:53:16.015
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:54:01.144
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:55:06.403
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:58:30.220
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 16:59:36.758
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:00:43.058
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:01:33.538
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:03:33.429
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:04:38.227
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:05:17.734
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:05:45.401
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:08:14.323
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:08:50.472
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:10:32.787
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:12:35.743
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:13:27.613
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:13:46.435
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:14:30.072
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:15:30.861
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:16:41.605
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:17:32.848
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:20:14.636
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:30:32.232
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:30:49.750
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 17:40:41.838
+!MESSAGE Unable to load default SVN Client
+!SESSION 2010-06-24 19:06:36.230 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-06-24 19:06:39.975
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2010-06-24 19:06:54.364
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-24 19:06:54.364
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@6da13047),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:08:38.936
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:09:25.577
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:09:50.954
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:10:03.594
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:12:31.727
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:12:44.043
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:14:00.981
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:31:10.708
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:33:50.218
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:37:29.942
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:37:33.462
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:38:44.672
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:39:33.440
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:39:47.792
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:40:13.732
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:40:24.348
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:40:51.669
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:42:15.557
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:43:13.335
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:43:44.916
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:44:30.651
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:45:13.015
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:45:55.908
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:46:08.348
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:47:05.200
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:47:58.537
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:51:28.213
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:51:47.156
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:52:39.806
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:54:08.628
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:56:49.945
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 19:59:48.236
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:00:16.889
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:01:17.712
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:03:11.734
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:03:26.600
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:04:15.246
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:08:44.540
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:09:17.145
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:10:26.975
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:12:20.687
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:13:49.456
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:15:05.156
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:15:23.864
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:17:44.099
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:21:21.072
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:31:13.920
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:32:55.131
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:33:49.269
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:34:10.263
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:46:11.704
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:46:21.575
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:46:32.454
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:47:40.699
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:48:12.548
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:48:14.002
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:48:34.321
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:48:35.608
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:49:04.560
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:54:20.654
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:54:52.120
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:55:03.155
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:56:18.577
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:57:15.456
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 20:59:43.842
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 21:01:07.708
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 21:01:08.992
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 21:02:09.970
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 21:02:36.057
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-24 21:04:20.516
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.ui.console 4 2 2010-06-24 21:06:30.231
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-06-24 21:06:30.249
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2010-06-28 18:26:11.630 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-06-28 18:26:38.756
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-28 18:26:38.756
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@7400b581),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:26:43.906
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:26:47.124
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:27:00.308
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-06-28 18:27:01.072
+!MESSAGE Indexed '2 Sort' (0 sources, 40 headers) in 1.19 sec: 521 declarations; 803 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:27:34.069
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:29:09.425
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:29:42.194
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:35:43.337
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:37:07.114
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:38:20.343
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:38:46.858
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:40:50.962
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:44:39.678
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:47:14.998
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:47:16.357
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:51:16.940
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:52:57.144
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:54:00.524
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:55:30.772
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:59:11.249
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 18:59:22.767
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:09:31.318
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:14:22.410
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:15:15.915
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:16:30.663
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:18:01.124
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:18:12.553
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:20:15.548
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:20:47.690
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:21:05.720
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:24:00.044
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:24:44.236
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:25:16.768
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:25:53.233
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:26:20.206
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:26:58.696
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:33:55.708
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:35:34.741
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:36:05.776
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:36:20.756
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:36:53.763
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:38:50.795
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:39:06.131
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:40:10.727
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:47:40.978
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:47:52.985
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:49:45.895
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:52:48.522
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:53:07.754
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:54:58.853
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:55:53.684
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:56:39.693
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:57:41.912
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:58:22.799
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:58:41.540
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 19:59:59.977
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-28 20:00:14.018
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.eclipse.ui.console 4 2 2010-06-28 20:01:22.105
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-06-28 20:01:22.127
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2010-06-29 17:24:00.805 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-06-29 17:25:08.099
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-29 17:25:08.099
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@f5ba5a5),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:25:42.768
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:26:39.442
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:29:33.674
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:30:04.201
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:30:14.652
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:31:07.006
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:44:45.964
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:48:15.444
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:55:53.794
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:56:59.717
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:57:07.944
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 17:59:26.489
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:01:51.649
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:03:43.317
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:03:58.709
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:08:56.621
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:09:34.022
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:10:20.097
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:10:36.156
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:10:47.220
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:21:22.960
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:24:30.726
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:25:50.166
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:26:30.561
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:31:17.998
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:36:38.711
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:37:37.054
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:39:07.435
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:39:36.486
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:40:37.730
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:43:04.471
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:43:29.906
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:45:19.025
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:57:39.902
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:59:01.086
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:59:13.078
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 18:59:21.106
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:04:40.298
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:05:29.442
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:07:35.783
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:08:53.390
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:10:11.692
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:11:59.954
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:12:16.494
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:13:56.066
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:14:50.713
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:15:05.867
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:16:35.908
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:22:36.019
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:22:52.728
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:23:05.511
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:23:22.249
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:25:54.823
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:28:30.798
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:35:39.677
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:37:10.103
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:37:14.013
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:38:25.072
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:40:49.475
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:42:56.782
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:44:24.518
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:47:51.128
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:48:02.806
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:48:51.907
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:49:02.229
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:49:46.531
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:50:30.806
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 19:50:54.875
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:00:15.712
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:03:21.524
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:04:17.160
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:04:52.206
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:05:22.681
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:05:31.734
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:09:32.372
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:11:09.762
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:11:40.628
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:15:04.848
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:16:12.051
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-29 20:16:36.001
+!MESSAGE Unable to load default SVN Client
+!SESSION 2010-06-30 10:53:23.656 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-06-30 10:54:15.478
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-06-30 10:54:15.479
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@7e6ca715),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 10:54:22.256
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 10:56:51.794
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 10:58:20.380
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:00:33.726
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:03:05.626
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:04:29.893
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:05:06.713
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:13:15.882
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:13:47.047
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:16:01.660
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:19:08.300
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:19:19.108
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:20:57.282
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:21:25.389
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:22:47.361
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:23:10.611
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:35:32.748
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:37:25.956
+!MESSAGE Unable to load default SVN Client
+
+!ENTRY org.tigris.subversion.subclipse.core 4 -6 2010-06-30 11:48:33.527
+!MESSAGE Unable to load default SVN Client
+!SESSION 2010-07-02 16:08:05.210 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-07-02 16:08:53.582
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-07-02 16:08:53.582
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@83598ef),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2010-07-02 16:09:13.691
+!MESSAGE Indexed '3 Collections' (0 sources, 40 headers) in 1.18 sec: 521 declarations; 803 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.ui.console 4 2 2010-07-02 19:04:09.286
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-07-02 19:04:09.382
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2010-07-03 11:25:42.242 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-07-03 11:26:35.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-07-03 11:26:35.078
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@30634e7),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-02 16:18:46.125 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-02 16:19:44.574
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-02 16:19:44.574
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@6fd050be),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2010-08-02 17:07:17.681
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileAnnotationHover.getHoverInfo(MakefileAnnotationHover.java:63)
+	at org.eclipse.jface.text.source.AnnotationBarHoverManager.computeInformation(AnnotationBarHoverManager.java:378)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:195)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1158)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3401)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3033)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2010-08-03 10:02:33.519 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2010-08-03 10:07:53.763
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2010-08-03 10:09:47.399
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-03 10:09:47.399
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@23edbbb9),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-03 16:49:27.890 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-03 16:50:27.629
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-03 16:50:27.629
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@101bcf3d),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-04 15:44:26.786 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-04 15:46:42.364
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-04 15:46:42.364
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@66d53ea4),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.ui 4 0 2010-08-04 16:40:19.089
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element file:/users/ugrad/m/mccain/cs240/chess/model/src/Checker.cpp does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:481)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:564)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:606)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:634)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:416)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:86)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:95)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:407)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2010-08-04 16:40:19.125
+!MESSAGE Element file:/users/ugrad/m/mccain/cs240/chess/model/src/Checker.cpp does not exist.
+!SESSION 2010-08-04 20:26:18.074 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-04 20:27:18.745
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-04 20:27:18.745
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@7010e773),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:11:58.432
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:00.869
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:00.884
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:00.899
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:00.914
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:00.961
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:00.987
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:01.002
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:01.018
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:01.035
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 21:14:01.051
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-04 22:21:22.402
+!MESSAGE 
+!SESSION 2010-08-05 10:17:58.655 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-05 10:21:12.865
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-05 10:21:12.865
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@3a349072),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-05 14:30:25.318 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-05 14:31:28.291
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-05 14:31:28.291
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@792442a2),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-05 17:39:04.044 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-05 17:39:38.408
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-05 17:39:38.408
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@2b27acc3),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 18:14:28.431
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.052
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.074
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.122
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.146
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.162
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.178
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.194
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.209
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.224
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.242
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.258
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.274
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.289
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-05 19:19:41.304
+!MESSAGE 
+!SESSION 2010-08-05 21:59:16.701 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-05 21:59:39.949
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-05 21:59:39.949
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@3d5a1c5f),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-06 12:40:28.170 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-06 12:41:36.059
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-06 12:41:36.059
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@a8c1143),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 13:31:44.798
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 13:31:44.815
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 13:31:44.923
+!MESSAGE 
+!SESSION 2010-08-06 15:22:27.150 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-06 15:23:09.929
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-06 15:23:09.929
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@3feda7a3),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 17:09:24.699
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 17:09:24.962
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 17:09:24.976
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 17:30:15.491
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 17:30:15.507
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-06 17:30:15.523
+!MESSAGE 
+!SESSION 2010-08-06 19:11:46.588 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-06 19:12:31.619
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-06 19:12:31.619
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@442a9403),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 4 0 2010-08-06 22:11:39.227
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(String.java:687)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover.getHoverInfo(CSourceHover.java:650)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.jface.text 4 0 2010-08-06 22:16:31.410
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+	at java.lang.String.charAt(String.java:687)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CSourceHover.getHoverInfo(CSourceHover.java:650)
+	at org.eclipse.cdt.internal.ui.text.c.hover.AbstractCEditorTextHover.getHoverInfo2(AbstractCEditorTextHover.java:83)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2010-08-07 09:50:49.142 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-07 09:51:20.247
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-07 09:51:20.247
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@5f47cab0),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:37:23.085
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:37:23.101
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:37:23.117
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:37:23.131
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:37:23.147
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:37:23.161
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:01.692
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:01.711
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:01.728
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:01.746
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:01.763
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:02.659
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:02.675
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:02.691
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:02.707
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:02.723
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 11:53:02.785
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.425
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.443
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.460
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.476
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.492
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.508
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.525
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.542
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.556
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.567
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 12:43:41.582
+!MESSAGE 
+
+!ENTRY org.eclipse.ui.console 4 2 2010-08-07 15:10:23.173
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY org.eclipse.ui.console 4 120 2010-08-07 15:10:23.213
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1142)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:665)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsoleManager.shutdown(BuildConsoleManager.java:163)
+	at org.eclipse.cdt.ui.CUIPlugin.stop(CUIPlugin.java:537)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2010-08-07 17:27:47.855 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-07 17:31:17.287
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-07 17:31:17.287
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@7fcd296b),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 17:44:26.056
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 17:44:26.073
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 20:25:02.039
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.ui 4 0 2010-08-07 21:25:58.824
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element file:/users/ugrad/m/mccain/cs240/chess/model/src/XmlIO.cpp does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:481)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:564)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:61)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:606)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:634)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:416)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:86)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:71)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:84)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:95)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:407)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2010-08-07 21:25:58.825
+!MESSAGE Element file:/users/ugrad/m/mccain/cs240/chess/model/src/XmlIO.cpp does not exist.
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-08-07 21:27:26.035
+!MESSAGE 
+!SESSION 2010-08-07 21:33:52.071 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-07 21:34:27.494
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-07 21:34:27.494
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@12287422),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-09 09:20:48.323 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-09 09:21:25.352
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-09 09:21:25.352
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@452fe9bf),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-09 19:07:08.945 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-09 19:07:38.172
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-09 19:07:38.172
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@3f7a04af),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2010-08-09 19:19:27.321 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_02
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2010-08-09 19:20:09.018
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2010-08-09 19:20:09.018
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.cdt.refactoring.actions.CRenameWorkbenchActionDelegate),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		ActionHandler(org.eclipse.cdt.ui.refactoring.actions.CRenameAction@69663655),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

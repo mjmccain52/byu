@@ -1,0 +1,37 @@
+******* CHESS DESIGN DOCUMENT ****************
+
+******* MICHAEL MCCAIN ******************
+
+Structures:
+
+	Board configuration:
+		I'm using a vector from the STL to hold a grin of board positions,
+		a vector of vectors of squares.  That way I will easily be able to
+		access all board positions instantly by index.
+		
+	sets of moves:
+		A STL set of the Move object will do nicely, since duplicates are
+		pointless, accessing by key sounds like a handy feature, and iterating
+		doesn't sound necessary at this point in my program (I'll overload == for
+		my Move class)
+	move history:
+		The STL stack is far and away the easiest decision of all the data structures.
+		Oldest moves are at the bottom of the stack, and I have instant access to the
+		most recent moves at the top.  Beauty.
+	
+Classes:
+
+Board
+Chess
+Move
+MoveHistory
+Piece
+Pawn
+Rook
+Knight
+Bishop
+Queen
+King
+Position
+Square
+XmlIO

@@ -1,0 +1,10 @@
+#ifndef CS240_KNIGHT_H
+#define CS240_KNIGHT_H
+
+class Knight extends Piece
+{
+public:
+	std::set<Move> GetValidMoves(Board board, Position base);
+};
+
+#endif

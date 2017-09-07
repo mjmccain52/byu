@@ -1,0 +1,325 @@
+******* CHESS DESIGN DOCUMENT ****************
+
+******* MICHAEL MCCAIN ******************
+
+Structures:
+
+	Board configuration:
+		I'm using a vector from the STL to hold a grin of board positions,
+		a vector of vectors of squares.  That way I will easily be able to
+		access all board positions instantly by index.
+		
+	sets of moves:
+		A STL set of the Move object will do nicely, since duplicates are
+		pointless, accessing by key sounds like a handy feature, and iterating
+		doesn't sound necessary at this point in my program (I'll overload == for
+		my Move class)
+	move history:
+		The STL stack is far and away the easiest decision of all the data structures.
+		Oldest moves are at the bottom of the stack, and I have instant access to the
+		most recent moves at the top.  Beauty.
+	
+Classes:
+
+Board
+Chess
+Move
+MoveHistory
+Piece
+Pawn
+Rook
+Knight
+Bishop
+Queen
+King
+Position
+Square
+XmlIO
+
+
+#ifndef CS240_CHESS_H
+#define CS240_CHESS_H
+
+#include <string>
+#include <set>
+#include "Move.h"
+
+class Chess{
+public:
+	/** NEW GAME ALGORITHM **
+		Clear Move History
+		Clear Board Squares
+		Reconfigure the squares in the board class
+			-loop through square grid assigning color/position
+			-loop for white/black pawns
+		Draw GUI based on data structures
+		Assign turn to the white player
+	**/
+	void NewGame();
+	
+	/** LOAD GAME ALGORITHM **
+		Clear Move History
+		Clear Board Squares
+		Reconfigure the squares in the board class
+			-loop through square grid assigning color/position
+		Load Xml data into structures with XmlIO's Read function
+			-using the xml tokenizer find the start board tag
+			-while next token is start and piece
+				get the column and row attributes
+				use these to get the proper square from the board structure
+				get the type and color attributes
+				make a new piece with these
+				change the occupant to be this guy on the square retrieved
+			-find start tag of history
+			-while next token is start and move
+				create new move object based on the 2-3 pieces within the move block
+				push move object onto the move history stack
+		Draw GUI
+	**/
+	void LoadGame();
+	
+	/** SAVE GAME ALGORITHM **
+		Write move history and board configuration into xml file.
+			-open chess game tag
+			-open board tag
+			-for each square on the board
+				-if the square is occupado
+					-open piece tag
+					-write the piece type, color, position
+					-close piece tag
+			-close board tag
+			-open history tag
+			-while history isn't empty
+				-pop a move from the history stack
+				-open move tag
+				-open piece tag
+				-write information from start piece
+				-close piece tag
+				-repeat this for end piece.
+				-if a piece was taken
+					-write info for taken piece
+			-close history tag
+			-close chess game tag
+	**/
+	void SaveGame();
+	
+	/** UNDO MOVE ALGORITHM
+		Pop the last move from the history stack
+		locate the end board position of the move with Move::GetEnd()
+		Get the piece associated with this position
+		locate the start board position of the move with Move::GetStart()
+		update the start position on the board to have the piece in question
+		if the move has a piece taken, place it on the end position.
+		
+		if the opponent is a computer and its human's turn
+			-repeat this entire process (two undos to get back to your turn)
+			
+		Update the GUI
+	**/
+	bool UndoMove();
+	
+	/** SELECT ALGORITHM **
+		-locate the square indicated by the parameters given
+		if square contains a piece
+			GetValidMoves of the piece
+			-for every square the piece could potentially move
+				if path isn't blocked and doesn't place/leave king in check
+					add to set of valid moves	
+	**/
+	bool Select(/*Whatever I get from the GUI*/);
+	
+	/** MOVE PIECE ALGORITHM
+		if destination square is a valid move
+			-Create a new move object with the information regarding the move
+			and put it on the move history stack
+			-using the same move object, update the squares on the board with the
+			new piece
+		-clear valid move set
+		update GUI
+		
+	**/
+	bool MovePiece(/*Whatever data type I get from the GUI*/);
+	
+	//! Determines whether the king of the current player is in check
+	bool IsCheck();
+	
+	//! Determines whether the king of the current player is in checkmate
+	bool IsCheckmate();
+	
+	//! Determines whether there are not any valid moves to be made.
+	bool IsStaleMate();
+	
+private:
+	std::string whoseTurn;
+	std::set <Move> currentValidMoves; //Populates itself every time a piece is selected
+	bool check;
+	bool checkmate;
+	bool stalemate;
+};
+
+#endif
+
+
+#ifndef CS240_MOVE_HISTORY_H
+#define CS240_MOVE_HISTORY_H
+
+#include<stack>
+#include "Move.h"
+
+//! MoveHistory is a wrapper class for a stack containing individual moves
+//! NOTE TO TA:  PLEASE INCLUDE NOTE AS TO WHY THIS CLASS IS A GOOD IDEA.
+class MoveHistory{
+public:
+	//! Accessor for private data
+	std::stack<Move> GetMoveHistory() const;
+	//! Pushes a Move onto history
+	void AddMove (Move& toAdd);
+	//! Removes the last move from history--for cheaters only
+	Move UndoMove();
+	//! Wipe the history clean.  Invoked at new games.
+	void ClearHistory();
+	
+private:
+	std::stack<Move> moveHistory; //! Contains all the moves completed up to current point in game
+};
+#endif
+
+
+#ifndef CS240_MOVE_H
+#define CS240_MOVE_H
+
+#include "Piece.h"
+
+//! Move contains information on where a piece moved from, where it ended up,
+//! and a piece captured along the way.
+class Move{
+public:
+	//! Constructor
+	//! @ args the piece moved, the piece taken (NULL if none) and start
+	//! and end positions
+	Move(Piece* moved, Piece* taken, Position& start, Position& end);
+	
+	//! Accessors for private data
+	Piece* GetMovedPiece() const;
+	Piece* GetTakenPiece() const;
+	Position GetStart() const;
+	Position GetEnd() const;
+	//! Section devoted to STL functions
+//_________________________________________________________________
+	Move();
+	Move(const Move& other);
+	~Move();
+	Move& operator= (const Move& other);
+	bool operator== (const Move& other);
+	bool operator< (const Move& other);
+//_________________________________________________________________
+private:
+	Piece* movedPiece;
+	Piece* takenPiece;
+	Position start;
+	Position end;
+};
+#endif
+
+
+#ifndef CS240_SQUARE_H
+#define CS240_SQUARE_H
+
+#include "Position.h"
+#include "Piece.h"
+
+//! Square is a value object containing information on the state of each square on the board.
+class Square{
+public:
+	//! Constructor with all the values needed for the class (piece is NULL if unoccupied
+	Square(Position pos, const std::string& c, Piece* piece);
+	
+	//! Changes the occupant in the square
+	void ChangeOccupant(Piece newOccupant);
+	//! Accessors for private data
+	Position GetPosition() const;
+	Piece GetOccupant() const;
+	std::string GetColor() const;
+
+private:
+	Position position; //! Location on the board
+	Piece* occupant; //! Piece currently occupying the square
+	std::string color; //! Color of the square : black or white
+};
+
+#endif
+
+
+#ifndef CS240_POSITION_H
+#define CS240_POSITION_H
+
+//! Position is a value object which holds a single set of coordinates on the game board
+class Position{
+public:
+	//! Constructor
+	//! @args x and y coordinates of the board position
+	Position(int x, int y);
+	//@return an array with {row, col}
+	int GetCoordinates()[];
+private:
+	int row; //! 0-7, starting on the left of the board
+	int col; //! 0-7, starting at the top of the board.
+};
+#endif
+
+
+#ifndef CS240_PIECE_H
+#define CS240_PIECE_H
+
+#include <string>
+#include <set>
+#include "Move.h"
+
+//! Piece is the parent class for all the various chess pieces
+class Piece{
+public:
+	//! Analyzes the board to determine valid moves for the piece
+	//! QUESTION FOR TA: Does passing in the board to the piece violate top-down design?
+	virtual std::set<Move> GetValidMoves(Board board, Position base);
+	//! Accessors to protected data
+	std::string GetType() const;
+	std::string GetColor() const;
+protected:
+	std::string type; //! type of chess piece (pawn, rook, etc.)
+	std::string color; //! Don't matta' if you're black or white.  Well, actually it does.
+};
+#endif
+
+
+
+#ifndef CS240_KING_H
+#define CS240_KING_H
+
+#include "Piece.h"
+
+class King extends Piece
+{
+public:
+	std::set<Move> GetValidMoves(Board board, Position base);
+
+};
+
+#endif
+
+
+THE OTHER PIECE CLASSES ARE PRETTY MUCH IDENTICAL FOR NOW
+
+#ifndef CS240_XML_IO_H
+#define CS240_XML_IO_H
+
+class XmlIO{
+public:
+
+	//! Writes an xml document with information retrieved from the data structures.
+	static WriteToFile();
+	
+	//! ReadFromFile populates the data structures with info gleaned from an existing xml file
+	static ReadFromFile();
+};
+
+#endif

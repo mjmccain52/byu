@@ -1,0 +1,136 @@
+/*
+ * URLResolver.cpp
+ *
+ *  Created on: Jun 23, 2010
+ *      Author: Michael McCain
+ */
+
+#include <iostream>
+#include <cstring>
+#include <cstdlib>
+using namespace std;
+
+struct PathNode{
+	char* value;
+	PathNode* next;
+};
+
+class PathStack{
+
+public:
+	PathStack (){
+		count = 0;
+		top = NULL;
+	}
+	int size(){
+		return count;
+	}
+	bool push(char* val){
+		PathNode* temp = new PathNode;
+		temp->value = val;
+		temp->next = top;
+		top = temp;
+		count++;
+		return true;
+	}
+	char* pop(){
+		if (top == NULL){
+			return NULL;
+		}
+		char* temp = top->value;
+		PathNode* garbage = top;
+		top = top->next;
+		delete garbage;
+		count--;
+		return temp;
+	}
+	bool empty(){
+		while (top != NULL){
+			PathNode* garbage = top;
+			top = top->next;
+			delete garbage;
+		}
+		count = 0;
+		return true;
+	}
+	char* peek(){
+		if (top == NULL){
+			return NULL;
+		}
+		return top->value;
+	}
+private:
+	PathNode* top;
+	int count;
+};
+
+class URLResolver{
+public:
+	/*
+	 * validateInput ensures that the command-line arguments contain only the path
+	 *  and two terms for base and link.
+	 */
+	bool validateInput(int argc){
+		return argc == 3;
+	}
+	char* resolve(char* base, char* link){
+
+		/*checks for a link that starts with http:// or file://*/
+		if (strstr(link, "http://") == link || strstr(link, "file://") == link){
+			return link;
+		}
+		/*checks for a link that begins with '#' */
+		if (link[0]=='#'){
+			return strcat(base, link);
+		}
+		tokenizeBase(base);
+		if (link[0] == '/'){
+			strcat(scheme, "//");
+			strcat(scheme, webLoc);
+			strcat(scheme, link);
+			return scheme;
+		}
+
+		return link;
+	}
+private:
+	char* scheme;
+	char* webLoc;
+	PathStack path;
+
+	void tokenizeBase(char* base){
+		webLoc = "";
+		scheme = strtok(base, "/");
+		if (strstr(scheme, "http:") == scheme){
+			webLoc = strtok(NULL, "/");
+			cerr << "ello?" << webLoc << endl;
+		}
+		char* pathLoc = strtok(NULL, "/");
+		while (pathLoc != NULL){
+			path.push(pathLoc);
+			pathLoc = strtok(NULL, "/");
+		}
+		path.pop(); // gets rid of the file at the end of the path.
+		cerr << webLoc << endl;
+	}
+
+
+
+};
+int main (int argc, char* argv[]){
+	/*PathStack test;
+	test.push("Mike");
+	test.push("Todd");
+	cout << "popping " << test.pop() << " and "<< test.pop() << endl;
+	cout << test.size() << " " << test.peek()<< endl;*/
+
+	URLResolver r;
+	if (!r.validateInput(argc)){
+		cout << "USAGE: url-resolver <base-url> <relative-url>" << endl;
+		exit(1);
+	}
+	else{
+		cout << r.resolve(argv[1], argv[2]) << endl;
+	}
+	return 0;
+}

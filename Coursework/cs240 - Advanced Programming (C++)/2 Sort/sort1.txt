@@ -1,0 +1,7 @@
+10 	Cartwright   Wendy    93
+23 	Williamson   Mark     81
+
+05 	Thompson     Mark     100
+42 	Anderson     John     76
+
+13 	Turner       Dennis   56

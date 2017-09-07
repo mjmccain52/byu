@@ -1,0 +1,19 @@
+#ifndef CS240_ACCESSED_PAGES_H
+#define CS240_ACCESSED_PAGES_H
+
+#include <string>
+#include "MyHashSet.h"
+class Pages{
+public:
+
+	bool Contains (Page p);
+	//! @param p the Page to be added to the hash set.
+	bool Add (Page p);
+	//! wipes the table and sets it back to the default size
+	void Clear();
+	//! Is the hash set empty?
+	bool IsEmpty();
+private:
+	MyHashSet pages;
+};
+#endif

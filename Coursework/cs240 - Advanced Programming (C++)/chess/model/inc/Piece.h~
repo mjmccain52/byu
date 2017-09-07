@@ -1,0 +1,27 @@
+#ifndef CS240_PIECE_H
+#define CS240_PIECE_H
+
+#include <string>
+#include <set>
+#include "Position.h"
+#include <iostream>
+
+class Board;
+//! Piece is the parent class for all the various chess pieces
+class Piece{
+public:
+	Piece(const std::string& t, const std::string& c);
+	virtual ~Piece();
+	//! Analyzes the board to determine valid moves for the piece
+	virtual std::set<Position> GetValidMoves(Board& board, Position& base) =0;
+	//! Accessors to protected data
+	std::string GetType() const;
+	std::string GetColor() const;
+
+	static bool Test (std::ostream& os);
+protected:
+	std::string type; //! type of chess piece (pawn, rook, etc.)
+	std::string color; //! Don't matta' if you're black or white.  Well, actually it does.
+};
+#endif
+

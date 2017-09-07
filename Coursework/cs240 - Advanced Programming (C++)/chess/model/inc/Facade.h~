@@ -1,0 +1,15 @@
+#ifndef CS240_FACADE_H
+#define CS240_FACADE_H
+
+#include <stack>
+
+class Facade{
+public:
+	void NewGame();
+	void LoadGame();
+	void SaveGame();
+	bool UndoMove();
+	bool MovePiece();
+}
+
+#endif

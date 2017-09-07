@@ -1,0 +1,23 @@
+#ifndef CS240_MOVE_HISTORY_H
+#define CS240_MOVE_HISTORY_H
+
+#include<stack>
+#include "Move.h"
+
+//! MoveHistory is a wrapper class for a stack containing individual moves
+//! NOTE TO TA:  PLEASE INCLUDE NOTE AS TO WHY THIS CLASS IS A GOOD IDEA.
+class MoveHistory{
+public:
+	//! Accessor for private data
+	stack<Move> GetMoveHistory();
+	//! Pushes a Move onto history
+	void AddMove (Move toAdd);
+	//! Removes the last move from history--for cheaters only
+	Move UndoMove();
+	//! Wipe the history clean.  Invoked at new games.
+	void ClearHistory();
+	
+private:
+	stack<Move> moveHistory; //! Contains all the moves completed up to current point in game
+};
+#endif

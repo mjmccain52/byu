@@ -1,0 +1,6 @@
+#ifndef CS240_WEBCRAWLER_H
+#define CS240_WEBCRAWLER_H
+
+#include <string>
+
+#endif

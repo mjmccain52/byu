@@ -1,0 +1,26 @@
+#ifndef CS240_PAGE_H
+#define CS240_PAGE_H
+
+#include <string>
+#include <iostream>
+#include "URL.h"
+//! A value object which holds some basic information about a webpage
+class Page{
+public:
+	//! Constructor
+	//! @param u, d The url and description to be stored
+	Page(URL u, std::string d);
+	Page(std::string u, std::string d);
+	~Page();
+	std::string GetDesc() const;
+	std::string GetURL() const;
+	//! @return True if this page has already been visited and parsed
+	bool HaveVisited() const;
+	void Visit();
+	static bool Test(std::ostream & os);
+private:
+	std::string desc; // description of the page
+	std::string url; //the page's url
+	bool visited;
+};
+#endif

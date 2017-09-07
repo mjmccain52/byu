@@ -1,0 +1,11 @@
+#include "Pawn.h"
+#include "Board.h"
+using namespace std;
+
+Pawn::Pawn(const std::string& c){}
+
+bool Pawn::Test(ostream& os){
+	bool success = true;
+	return success;
+}
+

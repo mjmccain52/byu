@@ -1,0 +1,15 @@
+#ifndef CS240_BOARD_H
+#define CS240_BOARD_H
+
+#include "Square.h"
+#include <vector>
+
+//! Board contains all the squares, which in turn contain the occupying pieces
+class Board{
+public:
+
+private:
+	vector< vector <Square> > squares; //! 2-Dimensional vector holds all the board's squares 
+};
+
+#endif

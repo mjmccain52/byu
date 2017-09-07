@@ -1,0 +1,10 @@
+#ifndef CS240_ROOK_H
+#define CS240_ROOK_H
+
+class Rook extends Piece
+{
+public:
+	std::set<Move> GetValidMoves(Board board, Position base);
+};
+
+#endif

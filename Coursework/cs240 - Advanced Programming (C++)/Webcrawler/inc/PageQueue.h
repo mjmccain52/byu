@@ -1,0 +1,122 @@
+#ifndef CS240_PAGE_QUEUE_H
+#define CS240_PAGE_QUEUE_H
+
+#include "URL.h"
+//! LLNode implements a doubly-linked list node
+class PQNode 
+{
+		friend class PageQueue;  //!< LinkedList can access private members of LLNode
+	public:
+	
+		//!  Constructor
+		PQNode(URL* const u, PQNode * p, PQNode * n) :
+		  url(u), prev(p), next(n)
+		{
+		}
+		
+		PQNode(URL* const u) :
+		  url(u), prev(NULL), next(NULL)
+		{
+		}
+		
+		~PQNode()
+		{
+			//delete url;
+		}
+		
+		//! Copy Constructor 
+		PQNode(const PQNode & other) : 
+		   url(other.url),prev(other.prev),next(other.next)
+		{
+		}
+	
+		//!  Read-only public methods for use by clients of the LinkedList class
+		URL* const GetURL() const
+		{
+		  return url;
+		}
+	
+	
+		PQNode * GetPrevious()const
+		{
+		  return prev;
+		}
+	
+	
+		PQNode * GetNext()const
+		{
+		  return next;
+		}
+	
+	private:
+		URL* url;        //!< url stored in the node
+		PQNode * prev;            //!< pointer to previous node in the list
+		PQNode * next; 			//!< pointer to next node in the list
+};
+
+
+//! LinkedList implements a doubly-linked list
+class PageQueue 
+{
+	public:
+	
+		//!  No-arg constructor.  Initializes an empty queue
+		PageQueue();
+	
+	
+		//!  Copy constructor.  Makes a complete copy of its argument
+		PageQueue(const PageQueue & other);
+	
+	
+		//!  Destructor
+		~PageQueue();
+	
+	
+		//! Assignment operator.  Makes a complete copy of its argument
+		//! @return A reference to oneself
+		
+		//!  @return true if the list is empty, or false if the queue is not empty
+		bool IsEmpty() const;
+	
+	
+		//!  Removes all urls from the queue
+		void Clear();
+	
+	
+		//!  @return the number of urls in the queue
+		int GetSize() const;
+	
+	
+		//!  Enqueues url u at the back o' the line
+		//!  
+		//!  @param u The new url being inserted
+		void Enqueue(URL* const u);
+		
+		URL* Peek();
+	
+	
+		//! Searches for the url u
+		//!   
+		//!  @param u The url being searched for
+		//!
+		//!  @return true if the url is in the queue
+		bool Contains(const std::string u) const;
+	
+	
+		//!  Removes the node at the head of the line
+		//!  
+		//!  @return the url at the head of the line
+		URL* Serve();
+		
+		static bool Test(std::ostream & os);
+	
+	private:
+		int size;
+		PQNode* front;
+		PQNode* back;
+		void Free();
+		PageQueue& operator =(const PageQueue & other);
+		void Copy (const PageQueue & other);
+};
+
+#endif

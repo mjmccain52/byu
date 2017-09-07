@@ -1,0 +1,14 @@
+#ifndef CS240_PAWN_H
+#define CS240_PAWN_H
+
+#include "Piece.h"
+
+class Pawn : public Piece
+{
+public:
+	Pawn(const std::string& c);
+	std::set<Position> GetValidMoves(Board& board, Position& base);
+	static bool Test (std::ostream& os);
+};
+
+#endif

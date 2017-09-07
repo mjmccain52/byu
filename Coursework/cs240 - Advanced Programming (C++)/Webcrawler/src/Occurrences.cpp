@@ -1,0 +1,177 @@
+
+#include "Occurrences.h"
+//#include "UnitTest.h"
+using namespace std;
+
+Occurrences::Occurrences() : root(NULL), size(0){}
+
+Occurrences::Occurrences(const Occurrences & other){
+	if (other.root != NULL){
+	 	root = Copy(other.root);
+	}else{
+		root = NULL;
+	}
+	 size = other.size;
+}
+Occurrences::~Occurrences() {
+	if (root != NULL){
+		Free(root);
+		delete root;
+	}
+}
+
+Occurrences& Occurrences::operator =(const Occurrences & other){
+	if (&other == this){
+		return *this;
+	}
+
+	Clear();
+	if (other.root != NULL){
+		root = Copy(other.root);
+	}else{
+		root = NULL;
+	}
+	size = other.size;
+	return *this;
+
+}
+
+OccMapNode * Occurrences::GetRoot() const {
+	return root;
+}
+
+bool Occurrences::IsEmpty() const{
+	return size == 0;
+}
+
+void Occurrences::Clear(){
+	if (root != NULL){
+		Free(root);
+		delete root;
+		root = NULL;
+		size= 0;
+	}
+}
+
+int Occurrences::GetSize() const{
+	return size;
+}
+
+OccMapNode * Occurrences::Insert(URL* const v){
+
+	root = Insert(v, root);
+
+	/*if (toAdd != NULL){
+		size++;
+	}*/
+	return toAdd;
+}
+
+OccMapNode * Occurrences::Insert(URL* const v, OccMapNode* n){
+	if (n == NULL){
+		n = new OccMapNode(v);
+		toAdd = n;
+		size++;
+	}else if (v->GetResolvedURL() < n->urlKey->GetResolvedURL()){
+		n->left = Insert(v, n->left);
+	}else if(v->GetResolvedURL() > n->urlKey->GetResolvedURL()){
+		n->right = Insert(v, n->right);
+	}else{
+		n->countValue++;
+		toAdd = n;
+		//delete v;
+	}
+	return n;
+}
+
+OccMapNode * Occurrences::Find(const std::string & v) const{
+
+	return Find(v, root);
+}
+
+OccMapNode* Occurrences::Find(const std::string & v, OccMapNode* n) const {
+
+	if (n == NULL){
+		return NULL;
+	}else if (v < n->urlKey->GetResolvedURL()){
+		return Find(v, n->left);
+	}else if (v > n->urlKey->GetResolvedURL()){
+		return Find(v, n->right);
+	}
+	return n;
+}
+
+
+void Occurrences::Free(OccMapNode* n){
+	if (n->left != NULL){
+		Free(n->left);
+		delete n->left;
+	}
+	if (n->right != NULL){
+		Free(n->right);
+		delete n->right;
+	}
+}
+
+OccMapNode* Occurrences::Copy (const OccMapNode * n){
+	OccMapNode* copy = new OccMapNode(*n);
+	if (n->left != NULL){
+		copy->left = Copy(n->left);
+	}
+	if (n->right != NULL){
+		copy->right = Copy(n->right);
+	}
+	return copy;
+}
+
+Occurrences::OccIterator* Occurrences::Iterator(){
+	return new OccIterator(root); 
+}
+
+/*bool Occurrences::Test(std::ostream & os){
+	bool success = true;
+	
+	os<<"Testing Occurrences..."<<endl;
+	
+	os<<"\tTesting OccMapNode..."<<endl;
+	OccMapNode* node1 = new OccMapNode(new URL("file:///1"));
+	node1->right = new OccMapNode(new URL("file:///2"));
+	TEST(node1->GetUrlKey()->GetResolvedURL()=="file:///1");
+	TEST(node1->GetCountValue()==1);
+	TEST(node1->GetLeft()== NULL);
+	TEST(node1->GetRight()->GetUrlKey()->GetResolvedURL()=="file:///2");
+	delete node1->right;
+	delete node1;
+	
+	os<<"\tTesting Constructor... "<<endl;
+	Occurrences o;
+	TEST(o.root == NULL);
+	TEST(o.size == 0);
+	
+	os<<"\tTesting Insert (URL Integration)..." << endl;
+	o.Insert(new URL("http://www.e.com/"));
+	o.Insert(new URL("http://www.a.com/"));
+	o.Insert(new URL("http://www.g.com/"));
+	o.Insert(new URL("http://www.a.com/"));
+	o.Insert(new URL("http://www.f.com/"));
+	o.Insert(new URL("http://www.f.com/"));
+	o.Insert(new URL("http://www.f.com/"));
+	TEST(o.GetSize() == 4);
+	TEST(o.root->urlKey->GetResolvedURL() == "http://www.e.com/");
+	TEST(o.root->left->urlKey->GetResolvedURL() == "http://www.a.com/");
+	TEST(o.root->left->countValue == 2);
+	TEST(o.root->right->left->urlKey->GetResolvedURL() == "http://www.f.com/");
+	TEST(o.root->right->left->countValue == 3);
+	os << "\tTesting Iterator..."<< endl;
+	OccIterator* i = o.Iterator();
+	TEST(i->Next()->urlKey->GetResolvedURL() == "http://www.a.com/");
+	TEST(i->Next()->urlKey->GetResolvedURL() == "http://www.e.com/");
+	TEST(i->Next()->urlKey->GetResolvedURL() == "http://www.f.com/");
+	TEST(i->Next()->urlKey->GetResolvedURL() == "http://www.g.com/");
+	TEST(!i->HasNext());
+	delete i;
+	
+	return success;
+}*/
+
+

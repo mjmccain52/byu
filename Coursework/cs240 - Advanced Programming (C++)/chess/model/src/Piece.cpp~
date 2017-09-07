@@ -1,0 +1,19 @@
+#include "Piece.h"
+#include "Board.h"
+
+Piece::Piece(const std::string& c) : color(c){}
+Piece::~Piece(){}
+std::string Piece::GetType() const{
+	return type;
+}
+std::string Piece::GetColor() const{
+	return color;
+}
+
+bool Piece::Test (std::ostream& os){
+	bool success = true;
+
+	return success;
+}
+
+

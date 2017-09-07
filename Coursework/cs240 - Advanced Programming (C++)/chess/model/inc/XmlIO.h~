@@ -1,0 +1,14 @@
+#ifndef CS240_XML_IO_H
+#define CS240_XML_IO_H
+
+class XmlIO{
+public:
+
+	//! Writes an xml document with information retrieved from the data structures.
+	static WriteToFile();
+	
+	//! ReadFromFile populates the data structures with info gleaned from an existing xml file
+	static ReadFromFile();
+};
+
+#endif

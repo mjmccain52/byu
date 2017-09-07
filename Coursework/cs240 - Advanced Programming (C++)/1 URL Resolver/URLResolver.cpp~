@@ -1,0 +1,211 @@
+/*
+ * URLResolver.cpp
+ *
+ *  Created on: Jun 23, 2010
+ *      Author: Michael McCain
+ */
+
+#include <iostream>
+#include <cstring>
+#include <cstdlib>
+#include <ctype.h>
+using namespace std;
+
+/*
+ * PathNode is just a humble struct holding a value and a pointer
+ */
+struct PathNode{
+	char* value;
+	PathNode* next;
+};
+
+/*
+ * PathStack is a simple stack specialized for cstrings
+ */
+class PathStack{
+
+public:
+	PathStack (){
+		count = 0;
+		top = NULL;
+	}
+	int size(){
+		return count;
+	}
+	bool push(char* val){
+		PathNode* temp = new PathNode;
+		temp->value = val;
+		temp->next = top;
+		top = temp;
+		count++;
+		return true;
+	}
+	char* pop(){
+		if (top == NULL){
+			return NULL;
+		}
+		char* temp = top->value;
+		PathNode* garbage = top;
+		top = top->next;
+		delete garbage;
+		count--;
+		return temp;
+	}
+	bool empty(){
+		while (top != NULL){
+			PathNode* garbage = top;
+			top = top->next;
+			delete garbage;
+		}
+		count = 0;
+		return true;
+	}
+	char* peek(){
+		if (top == NULL){
+			return NULL;
+		}
+		return top->value;
+	}
+private:
+	PathNode* top;
+	int count;
+};
+
+/*
+ * URLResolver resolves a URL link through the base link and the target.
+ */
+class URLResolver{
+public:
+	/*
+	 * validateInput ensures that the command-line arguments contain only the path
+	 *  and two terms for base and link.
+	 */
+	bool validateInput(int argc){
+		return argc == 3;
+	}
+
+	/*
+	 * resolve takes two valid strings and returns the absolute target url.
+	 */
+	char* resolve(char* base, char* link){
+
+		/*checks for a link that starts with http:// or file://*/
+		if (strstr(link, "http://") == link || strstr(link, "file://") == link ||
+			strstr(link, "HTTP://") == link || strstr(link, "HTTP://") == link){
+			return link;
+		}
+		/*checks for a link that begins with '#' */
+		if (link[0]=='#'){
+			return strcat(base, link);
+		}
+		tokenizeBase(base);
+		char* web = new char; //These are necessary since strtok chops up a memory block
+		char* build = new char;//causing concatenations to overwrite.
+		strcpy(web, webLoc);
+		strcpy(build, scheme);
+		strcat(build, "//");
+		strcat(build, web);
+		/*checks for a link that begins with '/' */
+		if (link[0] == '/'){
+			strcat(build, link);
+			return build;
+		}
+
+		/*checks for no directory specification*/
+		if (link[0] != '.'){
+			stackToQueue(build, link);
+			return build;
+		}
+
+		/* defaults to directory specification*/
+		else{
+			char survivor[1000] = ""; //TODO: clean up this slop.
+			tokenizeLink(link, survivor);
+			stackToQueue(build, survivor);
+			return build;
+		}
+
+		return link;
+	}
+private:
+	char* scheme;
+	char* webLoc;
+	PathStack path;
+	/*
+	 * Pushes current stack onto another stack to make it a queue,
+	 * then reassembles the path.
+	 */
+	void stackToQueue(char* build, char* target){
+		PathStack queue;
+		strcat(build, "/");
+		while (path.size() > 0){
+			queue.push(path.pop());
+		}
+		while (queue.size() > 0){
+			char*temp = queue.pop();
+			strcat(build, temp);
+			strcat(build, "/");
+		}
+		strcat(build, target);
+	}
+	/*
+	 * Pushes the directories of the path onto the stack
+	 */
+	void tokenizeBase(char* base){
+		webLoc = 0;
+		scheme = strtok(base, "/");
+		if (strstr(scheme, "http:") == scheme || strstr(scheme, "HTTP:") == scheme){
+
+			webLoc = strtok(NULL, "/");
+
+		}
+		char* pathLoc = strtok(NULL, "/");
+		while (pathLoc != NULL){
+			path.push(pathLoc);
+			pathLoc = strtok(NULL, "/");
+		}
+		path.pop(); // gets rid of the file at the end of the path.
+	}
+
+	/*
+	 * Pops directory tokens off the stack for every ../ encountered in the link
+	 */
+	void tokenizeLink(char* link, char* survivor){
+		char* dots = strtok(link, "/");
+		while (dots != NULL){
+			if (strcmp(dots, "..") == 0){
+				path.pop();
+			}
+			else if (strcmp(dots, ".") == 0){
+				dots = strtok(NULL, "/");
+				continue;
+			}
+			else{
+				char* t = new char;
+				strcpy(t, dots);
+				strcat(survivor, t);
+
+				dots = strtok(NULL, "/");
+				if (dots != NULL)
+				{
+					strcat(survivor, "/");
+				}
+				continue;
+			}
+			dots = strtok(NULL, "/");
+		}
+	}
+};
+
+int main (int argc, char* argv[]){
+
+	URLResolver r;
+	if (!r.validateInput(argc)){
+		cout << "USAGE: url-resolver <base-url> <relative-url>" << endl;
+		exit(1);
+	}
+	else{
+		cout << r.resolve(argv[1], argv[2]) << endl;
+	}
+	return 0;
+}

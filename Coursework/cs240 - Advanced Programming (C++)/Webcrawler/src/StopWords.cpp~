@@ -1,0 +1,81 @@
+#include "StopWords.h"
+#include <fstream>
+#include "StringUtil.h"
+#include "UnitTest.h"
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+StopWords::StopWords() : size(0), max(100){
+	words = new string[max];
+}
+StopWords::~StopWords(){
+	delete []words;
+}
+void StopWords::LoadSWFile(std::string filename){
+	ifstream file;
+	string curLine;
+	file.open(filename.c_str());
+	
+	for (int i = 0; getline(file, curLine); i++){
+		if (curLine.length() == 0){
+			i--;
+			continue;
+		}
+		StringUtil::ToLower(curLine);
+		Insert(curLine);
+	}
+	file.close();
+}
+
+void StopWords::Insert (const std::string& word){
+	if (size == max){
+		Grow();
+	}
+	words[size] = word;
+	size++;
+}
+
+void StopWords::Grow(){
+	string* temp = new string[max * 2];
+	for (int i = 0; i < max; i++){
+		temp[i] = words[i];
+	}
+	delete []words;
+	words = temp;
+	max *= 2;
+}
+
+int CompareWords (const void * a, const void * b)
+{
+	if ( *(string*)a < *(string*)b )
+		return -1;
+	if ( *(string*)a > *(string*)b )
+		return 1;
+	return 0;
+}
+
+bool StopWords::IsStopWord(const string& word) const {
+	return bsearch (&word, words, size, sizeof (string), CompareWords) != NULL;
+
+}
+
+bool StopWords::Test(std::ostream& os){
+	bool success = true;
+	os << "Testing StopWords..." << endl;
+	
+	StopWords s;
+	s.Insert("a");
+	s.Insert("b");
+	s.Insert("c");
+	s.Insert("d");
+	s.Insert("e");
+	s.Insert("f");
+	s.Insert("g");
+	
+	TEST(s.IsStopWord("a"));
+	TEST(!s.IsStopWord("z"));
+	TEST(s.IsStopWord("g"));
+	TEST(s.IsStopWord("c"));
+	return success;
+}

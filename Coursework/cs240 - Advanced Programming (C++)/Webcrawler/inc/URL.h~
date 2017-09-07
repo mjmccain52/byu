@@ -1,0 +1,53 @@
+#ifndef CS240_URL_H
+#define CS240_URL_H
+
+#include <string>
+
+//! URL contains the original relative url, as well as methods for resolving 
+//!it and storing the path
+class URL{
+public:
+	//!Constructor resolves the link url with the base b
+	URL(std::string url, std::string b, bool legit);
+	//! Single arg Constructor used mainly for testing, initializing the start url
+	URL(std::string url, bool legit);
+	
+	//! These two constructors are for ease of testing, since they don't attempt internet access.
+	URL(const std::string& url, const std::string& b);
+	URL(std::string url);
+	
+	~URL();
+	
+	//! Resolves the relative URL into an absolute URL
+	void ResolveURL();
+	//! Accessors
+	std::string GetResolvedURL() const;
+	std::string* GetPath();  
+	std::string GetScheme() const;
+	std::string GetDomain() const;
+	int GetPathSize();
+	std::string GetPrefix() const;
+	void Redirect();
+	static bool Test(std::ostream& os);
+	
+private:
+	std::string DoubleCheck(std::string& toParse);
+	//!Calculates how many directories back we climb
+	int climbBack(const std::string& link, int index);
+	//! Parses the original relative URL into a scheme, domain, and path
+	void Parse(std::string& toParse);
+	//! Creates a prefix from the resolved URL for scope purposes.
+	void MakePrefix();
+	std::string original; // the original relative URL
+	std::string resolved; // the resolved absolute URL 
+	std::string schemeString; // the scheme: either file:// or http://
+	std::string domain; // the webdomain of the url
+	std::string pathTokens[1024]; // the various directories containing the html file.
+	std::string baseString; //The URL where this came from
+	std::string prefix; //The path of the URL
+	int pathSize; //number of directories in path
+	int back; //directories to climb back when resolving
+	int resumeIndex; //loction of base to append link to
+
+};
+#endif

@@ -1,0 +1,10 @@
+#ifndef CS240_QUEEN_H
+#define CS240_QUEEN_H
+
+class Queen extends Piece
+{
+public:
+	std::set<Move> GetValidMoves(Board board, Position base);
+};
+
+#endif

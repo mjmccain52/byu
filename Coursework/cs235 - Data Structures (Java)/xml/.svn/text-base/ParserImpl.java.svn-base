@@ -1,0 +1,56 @@
+
+package cs235.xml;
+
+import java.io.InputStream;
+import java.io.IOException;
+
+/**
+ * The Parser interface represents an XML parser.
+ */
+public class ParserImpl implements Parser {
+
+    /**
+     * Parses the XML document contained in the specified input stream
+     * and returns a document tree that represents the document.
+     * 
+     * @param input an input stream containing an XML document
+     * @return the root node of document tree
+     * @throws IllegalArgumentException if input is null
+     * @throws IOException if an input error occurs while parsing the XML document
+     * @throws XMLException if the XML document being parsed is not in valid XML format
+     */
+    public Document parse(InputStream input) throws IOException, XMLException{
+    	if (input == null)
+    		throw new IllegalArgumentException ("null argument");
+    
+    	Tokenizer scan = new TokenizerImpl(input);  //this error is ok.  have class file
+    	Document doc = ParserFactory.createDocument();
+    	Node n = doc;
+    	while (scan.nextToken() != Tokenizer.EOF){
+    		if (scan.getTokenType() == Tokenizer.START_TAG){
+    			Node temp = ParserFactory.createElement(scan.getTagName());
+    			n.appendChild(temp);
+    			n = temp;
+    			for (int i = 0; i < scan.getAttributeCount(); i++)
+    				((Element)n).setAttribute(scan.getAttributeName(i), 
+    						scan.getAttributeValue(i));
+    		}
+    		if (scan.getTokenType() == Tokenizer.TEXT)
+    			n.appendChild(ParserFactory.createText(scan.getText()));
+    		if (scan.getTokenType() == Tokenizer.END_TAG){
+    			try{
+	    			if (!scan.getTagName().equals(((Element)n).getTagName()))
+	    				throw new XMLException();
+	    			n = n.getParent();
+    			}
+    			catch (ClassCastException e){ // if start tag
+    				throw new XMLException();
+    			}
+    		}
+    	}
+    	if (n.getType() != 1)  //if missing end tag
+    		throw new XMLException();
+    	
+    	return doc;
+    }
+}
