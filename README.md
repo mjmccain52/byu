@@ -1,2 +1,3 @@
-# Portfolio
-Here's where you may find the best representation of my coding style
+Coursework - Java code written for CS minor
+Neuromechanics - Python applications written for the Neuromechanics research lab
+Wallbuilder - Small Java project written for a heat transfer course
